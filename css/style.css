@@ -23,6 +23,10 @@ img {
     object-fit: contain;
 }
 
+html, body{
+    height: 100%;
+}
+
 .container {
     max-width: 1328px;
     padding: 0 16px;
@@ -52,8 +56,61 @@ img {
     justify-content: space-between;
 }
 
+
+
+.captcha-img{
+    width: 180px;
+    height: 40px;
+}
+
+.captcha-wrapper{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 8px;
+}
 .hader_logo img {
     min-width: 207px;
+}
+
+.form_flex .form_col:last-child > .input_item{
+margin-bottom: 18px;
+}
+
+
+
+.block-404{
+    height: 100%;
+    margin: auto;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+.phone-item .contacts_item-text{
+    display: block;
+    line-height: 1.2;
+}
+
+
+.mail-item .contacts_item-text{
+    text-decoration: underline;
+}
+
+
+.address-item .contacts_item-text{
+margin-bottom: 6px;
+}
+
+.phone-item > .contacts_item-text{
+    margin-bottom: 6px;
+}
+
+button.input_name{
+    border: none;
+    background: transparent;
+    margin-bottom: 0;
 }
 
 /* .nav_menu_first {
@@ -241,9 +298,10 @@ img {
     text-align: end;
 }
 
-.link_color {
+a{
     color: #33CC99;
 }
+
 
 .contacts_flex {
     display: flex;
@@ -385,14 +443,61 @@ img {
 }
 
 .form_button {
-    background-color: #003333;
+    background-color: #005151;
     color: #fff;
     border-radius: 8px;
+    font-weight: 500;
+    line-height: 20px;
     font-size: 16px;
     width: 154px;
     height: 50px;
     border: none;
 }
+
+
+.wrapper{
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+main{
+    display: flex;
+    flex: 1 0 auto;
+}
+
+footer{
+    flex: 0 0 auto;
+}
+
+.block-404__title{
+    font-size: 230px;
+    color: #003333;
+    margin-bottom: 18px;
+}
+
+
+.block-404__wrapper{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.block-404__desc{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6F6F6F;
+    max-width: 360px;
+    text-align: center;
+}
+
+.block-404__desc a{
+   color: #33CC99;
+}
+
+
 
 .contacts_link_download {
     display: flex;
@@ -442,6 +547,7 @@ img {
     border: 1px solid rgb(242, 242, 242);
     display: inline-block;
     transition: all .2s;
+
 }
 
 .stock_item img {
@@ -457,6 +563,7 @@ img {
     padding: 16px 46px 16px 16px;
     position: relative;
     color: #003333;
+    line-height: 1.25;
     transition: all .2s;
 }
 
@@ -469,7 +576,9 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     right: 16px;
-    top: calc(50% - 13px);
+    top: 16px;
+    bottom: 0;
+    margin: auto;
 }
 
 .stock_item:hover {
@@ -539,11 +648,11 @@ img {
     margin-bottom: 24px;
 }
 
-.description_text {
+/* .stock_description p {
     font-size: 18px;
     color: #6f6f6f;
     margin-bottom: 16px;
-}
+} */
 
 .section_mob {
     padding-bottom: 50px;
