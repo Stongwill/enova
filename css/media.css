@@ -19,6 +19,12 @@
     }
 }
 
+@media (max-width: 996px){
+    .home-slider__item{
+        overflow: hidden;
+    }
+}
+
 @media(max-width: 980px) {
     .about_flex {
         flex-direction: column;
