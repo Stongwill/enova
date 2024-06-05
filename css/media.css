@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 996px){
-    .swiper-wrapper .swiper-slide:last-child{
+    .swiper-slide-active{
         z-index: 3;
     }
     .home-slider__item{
