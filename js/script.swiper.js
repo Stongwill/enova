@@ -7,7 +7,7 @@ const swiper = new Swiper('.swiper', {
     },
     loop: true,
     speed: 600,
-    effect: "cube",
+    // effect: "cube",
     pagination: {
       el:  '.swiper-pagination',
       type: 'progressbar'
