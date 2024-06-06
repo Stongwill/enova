@@ -473,15 +473,15 @@
         border: 1px solid #909090;
         border-radius: 8px;
         padding: 17px 0;
-        padding-left: 30px;
         width: 341px;
         height: 70px;
         max-width: 100%;
         display: flex;
+        gap: 10px;
         justify-content: center;
         align-items: center;
     }
-    .btn-map span{
+    /* .btn-map span{
         position: relative;
     }
     .btn-map span::after{
@@ -502,7 +502,7 @@
     }
     .popup__list-map .btn-map:last-child span::after{
         background: url('../img/maps/2gis.svg') 0 0 / cover no-repeat;
-    }
+    } */
 
 
 
@@ -673,7 +673,3 @@ width: calc(100% + 1px);
         height: 58px;
     }
 }
-
-
-
-
