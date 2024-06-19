@@ -23,7 +23,8 @@ img {
     object-fit: contain;
 }
 
-html, body{
+html,
+body {
     height: 100%;
 }
 
@@ -58,56 +59,58 @@ html, body{
 
 
 
-.captcha-img{
+.captcha-img {
     width: 180px;
     height: 40px;
 }
 
-.captcha-wrapper{
+.captcha-wrapper {
     display: flex;
     gap: 12px;
     align-items: center;
     margin-bottom: 8px;
 }
+
 .hader_logo img {
     min-width: 207px;
 }
 
-.form_flex .form_col:last-child > .input_item{
-margin-bottom: 18px;
+.form_flex .form_col:last-child>.input_item {
+    margin-bottom: 18px;
 }
 
 
 
-.block-404{
+.block-404 {
     height: 100%;
     margin: auto;
 }
 
-a, button{
+a,
+button {
     cursor: pointer;
 }
 
-.phone-item .contacts_item-text{
+.phone-item .contacts_item-text {
     display: block;
     line-height: 1.2;
 }
 
 
-.mail-item .contacts_item-text{
+.mail-item .contacts_item-text {
     text-decoration: underline;
 }
 
 
-.address-item .contacts_item-text{
-margin-bottom: 6px;
-}
-
-.phone-item > .contacts_item-text{
+.address-item .contacts_item-text {
     margin-bottom: 6px;
 }
 
-button.input_name{
+.phone-item>.contacts_item-text {
+    margin-bottom: 6px;
+}
+
+button.input_name {
     border: none;
     background: transparent;
     margin-bottom: 0;
@@ -298,7 +301,7 @@ button.input_name{
     text-align: end;
 }
 
-a{
+a {
     color: #33CC99;
 }
 
@@ -455,36 +458,36 @@ a{
 }
 
 
-.wrapper{
+.wrapper {
     display: flex;
-	flex-direction: column;
-	min-height: 100%;
+    flex-direction: column;
+    min-height: 100%;
 }
 
-main{
+main {
     display: flex;
     flex: 1 0 auto;
 }
 
-footer{
+footer {
     flex: 0 0 auto;
 }
 
-.block-404__title{
+.block-404__title {
     font-size: 230px;
     color: #003333;
     margin-bottom: 18px;
 }
 
 
-.block-404__wrapper{
+.block-404__wrapper {
     display: flex;
     justify-content: center;
-align-items: center;
-flex-direction: column;
+    align-items: center;
+    flex-direction: column;
 }
 
-.block-404__desc{
+.block-404__desc {
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
@@ -493,8 +496,8 @@ flex-direction: column;
     text-align: center;
 }
 
-.block-404__desc a{
-   color: #33CC99;
+.block-404__desc a {
+    color: #33CC99;
 }
 
 
@@ -672,6 +675,8 @@ flex-direction: column;
     right: 6%;
     width: 100%;
     max-width: 550px;
+    object-fit: initial;
+    height: auto;
 }
 
 .mob_subtitle {
@@ -859,7 +864,7 @@ flex-direction: column;
     margin-bottom: 20px;
 }
 
-.stocks_pagination{
+.stocks_pagination {
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -867,7 +872,7 @@ flex-direction: column;
 }
 
 
-.stocks_pagination li{
+.stocks_pagination li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -881,31 +886,208 @@ flex-direction: column;
     cursor: pointer;
     transition: .3s;
 }
-.stocks_pagination li:hover{
+
+.stocks_pagination li:hover {
     background-color: rgba(0, 0, 0, .7);
     color: #fff;
 }
 
-.stocks_pagination li.active{
+.stocks_pagination li.active {
     background-color: #003333;
     color: #fff;
 }
-.stocks_pagination li a{
+
+.stocks_pagination li a {
     color: inherit;
 }
 
 
-.stocks_pagination .stock_nav_btn:first-child{
+.stocks_pagination .stock_nav_btn:first-child {
     transform: rotate(180deg);
     margin-right: 6px;
 }
-.stocks_pagination .stock_nav_btn:last-child{
+
+.stocks_pagination .stock_nav_btn:last-child {
     margin-left: 6px;
 }
 
-.stocks_pagination .stock_nav_btn{
+.stocks_pagination .stock_nav_btn {
     width: 34px;
     height: 34px;
     background: rgb(242, 242, 242);
-
 }
+
+.korp_top {
+    padding: 130px 0;
+}
+
+.korp_img {
+    position: absolute;
+    top: 0;
+    right: 9%;
+    width: 100%;
+    max-width: 650px;
+}
+
+.section_korp {
+    position: relative;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-image: url(../img/call_banner.png);
+}
+
+.korp_men {
+    position: absolute;
+    right: 0;
+    max-width: 476px;
+    bottom: -136px;
+    object-fit: contain;
+    width: 100%;
+    height: 634px;
+}
+
+.box_title-korp {
+    margin-bottom: 0;
+}
+
+.korp_cart-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #003333;
+}
+
+.korp_cart {
+    background-color: #CDDCD9;
+    width: 50%;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 438px;
+    position: relative;
+    padding: 16px;
+}
+
+.korp_row {
+    display: flex;
+    gap: 24px;
+}
+
+.topl_cart {
+    width: 80%;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    object-fit: contain;
+    height: fit-content;
+}
+
+.kran_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.page_section_korp {
+    padding: 100px 0 50px 0;
+}
+
+.section_cooperation {
+    padding: 50px 0;
+}
+
+.cooperation_list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.cooperation_item {
+    border-radius: 12px;
+    width: 33.33%;
+    border: 1px solid #efefef;
+}
+
+.cooperation_item-img {
+    background-image: url(../img/coop_fon1.png);
+    background-color: #003333;
+    background-repeat: no-repeat;
+    max-height: 258px;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.cooperation_text {
+    font-size: 18px;
+    color: #6F6F6F;
+    padding-top: 12px;
+    border-top: 1px solid rgb(208, 208, 208);
+    width: fit-content;
+}
+
+.cooperation_item-title {
+    color: #003333;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px;
+}
+
+.cooperation_advantages-list {
+    display: flex;
+    gap: 20px;
+}
+
+.cooperation_advantages-item {
+    padding: 16px;
+    border: 1px solid #33CC99;
+    width: 20%;
+    border-radius: 12px;
+}
+
+.cooperation_advantages-img_box {
+    background-color: #003333;
+    width: 68px;
+    height: 68px;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.cooperation_advantages-text {
+    font-size: 16px;
+    color: #003333;
+}
+
+.page_section .page_title {
+    margin-bottom: 40px;
+}
+
+.cooperation_call {
+    background-image: url(../img/call_fon.png), linear-gradient(180.00deg, rgb(18, 101, 85), rgb(2, 54, 53) 100%);
+    background-position: top;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding: 60px 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 16px;
+}
+
+.cooperation_call h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.cooperation_call p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    color: #D0D0D0;
+}
+
+.cooperation_call .wt_btn {
+    margin-bottom: 0;
+}
+
+.coop_nout {}
