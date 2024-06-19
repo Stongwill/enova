@@ -16,12 +16,15 @@
 }
 .home-slider__wrapper {
     display: flex;
+    overflow: hidden;
+    
 }
 .home-slider__info {
     position: relative;
     z-index: 2;
     flex: 1 1 50%;
     padding: 0 56px;
+    min-height: 382px;
     display: flex;
     flex-direction: column;
     justify-content: center;
