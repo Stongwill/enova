@@ -263,6 +263,10 @@ button.input_name {
     justify-content: space-between;
 }
 
+.footer_logo_col > a{
+    margin-bottom: 24px;
+}
+
 .footer_text {
     font-size: 16px;
     color: #fff;
@@ -739,6 +743,11 @@ footer {
     overflow: hidden;
 }
 
+.mob_banner .banner_img{
+    width: 98%;
+    bottom: -316px;
+}
+
 .banner_col {
     width: 50%;
 }
@@ -752,6 +761,8 @@ footer {
     width: 80%;
     left: 10%;
     bottom: -260px;
+    height: inherit;
+    object-fit: inherit;
 }
 
 

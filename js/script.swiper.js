@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper', {
     
    
     autoplay: {
-        delay: 3500
+        delay: 7500
     },
     loop: true,
     speed: 600,
