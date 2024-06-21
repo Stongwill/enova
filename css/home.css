@@ -718,7 +718,7 @@ width: calc(100% + 1px);
 
 @media (max-width: 520px) {
     .home-slider__info{
-        min-height: 420px;
+        min-height: 390px;
     }
 
 }
