@@ -988,7 +988,7 @@ footer {
     right: 0px;
     bottom: 0;
     object-fit: contain;
-    height: fit-content;
+    height: initial;
 }
 
 .kran_img {
